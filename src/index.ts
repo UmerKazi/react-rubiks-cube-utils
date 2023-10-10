@@ -219,4 +219,4 @@ function applyScramble(scrambleStr: string): Cube {
 }
 
 export type { Color, Face, Cube };
-export { solvedCube, applyScramble, colorMap };
+export { solvedCube, applyScramble };
