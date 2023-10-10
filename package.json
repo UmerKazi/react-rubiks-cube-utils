@@ -1,0 +1,22 @@
+{
+  "name": "react-rubiks-cube-utils",
+  "version": "1.0.0",
+  "description": "A rubiks cube utility package for react apps",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmerKazi/react-rubiks-cube-utils.git"
+  },
+  "keywords": [
+    "rubiks"
+  ],
+  "author": "Umer Kazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UmerKazi/react-rubiks-cube-utils/issues"
+  },
+  "homepage": "https://github.com/UmerKazi/react-rubiks-cube-utils#readme"
+}
