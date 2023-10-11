@@ -1,6 +1,6 @@
 {
   "name": "react-rubiks-cube-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A rubiks cube utility package for react apps",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -9,11 +9,11 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -43,5 +43,8 @@
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "scrambow": "^1.8.1"
   }
 }
