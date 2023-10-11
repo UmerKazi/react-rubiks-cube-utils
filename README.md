@@ -1,6 +1,6 @@
 # React Rubiks Cube Utilities
 
-A comprehensive utility package for Rubik's Cube enthusiasts and developers. This package provides tools to generate scrambles for all WCA standard cubes, create visually appealing displays for cubes given any scramble or cube state, and a solver for any given scrambled cube. Built with TypeScript and tested with Jest.
+A comprehensive utility package for Rubik's Cube enthusiasts and developers. This package provides tools to generate scrambles for all WCA standard cubes, create visually appealing displays for cubes given any scramble or cube state. Built with TypeScript.
 
 ## Installation
 
@@ -71,48 +71,6 @@ console.log(solvedCube({ type: '3x3' }));
 ```
 
 This will return an array that reflectes the state of a base solved cube, At the moment `solvedCube` only supports 2x2, 3x3, 4x4, 5x5, 6x6, and 7x7.
-
-To get a solution for a scrambled cube, use `solveCube`
-
-```
-import { solveCube, Cube } from 'react-rubiks-cube-utils';
-const myCube: Cube = {
-	U:[
-		["O","O","G"],
-		["R","W","G"],
-		["G","Y","R"]
-	],
-	D:[
-		["W","Y","B"],
-		["R","Y","W"],
-		["O","O","W"]
-	],
-	L:[
-		["G","B","W"],
-		["R","O","Y"],
-		["W","W","R"]
-	],
-	R:[
-		["B","W","Y"],
-		["G","R","B"],
-		["Y","B","B"]
-	],
-	F:[
-		["O","B","Y"],
-		["O","G","R"],
-		["G","G","O"]
-	],
-	B:[
-		["R","W","Y"],
-		["O","B","Y"],
-		["R","G","B"]
-	]
-}
-const solution: string = solveCube({ cube: myCube });
-console.log(solution);
-```
-
-This will return a string with the steps required to solve the given cube in the given state
 
 ## Support
 
